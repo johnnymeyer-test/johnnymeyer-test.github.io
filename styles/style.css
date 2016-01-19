@@ -1,0 +1,69 @@
+/*
+
+selector1, selector2 {
+    declaration;
+    declaration;
+    .
+    .
+    .
+    property: property-value;
+    .
+    .
+    .
+    declaration;
+}
+
+*/
+
+
+html {
+   font-size: 12px; /* px means 'pixels': the base font size is now 10 pixels high  */
+   font-family: 'Lato', sans-serif;
+   background-color: #ffffff
+}
+
+body {
+    background-color: #e5e5ff;
+    width: 600px;
+    margin: 0px  auto;
+    padding: 0px 20px 20px 20px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+p, li {
+    font-size: 18px;
+    line-height: 1.25;
+    letter-spacing: 0.5px;
+    /*width: 500px;*/
+
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+img:hover {
+    transform: scale(1.04);
+    -webkit-transition-duration: 0.15s;
+    -moz-transition-duration: 0.15s;
+    -o-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    /*z-index: 3;*/
+ }
+
+body, h1, p, ul {
+    border: 1px solid black;
+}
